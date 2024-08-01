@@ -110,7 +110,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     border: 2px solid;
 }
 
@@ -171,4 +171,40 @@ body {
     height: 100%;
     left: 0px;
     top: 0px;
+}
+
+/* influencer-customer-section strat */
+
+
+.fst-hr  {
+    width: 80%;
+    margin: 0 auto;
+    height: 0.7px;
+    border: 0;
+    background: linear-gradient(135deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50%,rgba(192, 204, 218, 0.1) 100%);
+    margin-bottom: 35px;
+}
+
+ .snd-hr{
+    width: 80%;
+    margin: 0 auto;
+    height: 0.5px;
+    border: 0;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.influencer-customer-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.influencer-customer-company {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
 }
