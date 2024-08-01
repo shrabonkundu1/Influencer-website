@@ -1,0 +1,174 @@
+
+
+
+/* Universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-color: rgb(170, 170, 170); */
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar-container-1 {
+    width: 85%;
+    margin: 95px auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.logo h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+.navbar-content-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.navbar-content-desktop  a{ 
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-content-desktop  a:hover {
+    color: rgb(236, 111, 16);
+}
+
+
+
+/* mobile view  start*/
+
+.navbar-container-2 {
+    width: 90%;
+    margin: 40px auto 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.logo h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+.navbar-content-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.navbar-content-mobile  a{ 
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-content-desktop  a:hover {
+    color: rgb(58, 58, 58);
+}
+
+
+/* mobile view end */
+
+
+
+.influencer-journey-section {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 2px solid;
+}
+
+.influencer-journey-content {
+    width: 50%;
+}
+
+.influencer-journey-content h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 3.25rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+    line-height: 65px;
+    margin-bottom: 16px;
+}
+
+
+.influencer-journey-content p {
+    width: 80%;
+    font-family: "poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.btn-primary {
+    width: max-content;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 11px 30px;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+
+
+.influencer-journey-image {
+    position: relative;
+    width: 40%;
+
+}
+
+.font-img img{
+    position: absolute;
+    z-index: 1;
+    height: 89%;
+    top: 22px;
+    left: 5px;
+}
+
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}

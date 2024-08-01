@@ -1,0 +1,46 @@
+@media screen and (min-width:577px) {
+    .navbar-container-2 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .navbar-container-1 {
+        display: none;
+    }
+
+    /* .influencer-journey-section start */
+
+    .influencer-journey-section {
+        width: 90%;
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .influencer-journey-content {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .influencer-journey-content h1 {
+        font-size: 2.3rem;
+        margin-bottom: 15px;
+        line-height: 42px;
+    }
+
+    .influencer-journey-content p {
+        width: 90%;
+        font-size: 0.95rem;
+        margin: 0 auto;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    
+
+    .influencer-journey-image{
+        width: 80%;
+    }
+}
